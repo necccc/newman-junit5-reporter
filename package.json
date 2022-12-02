@@ -1,0 +1,29 @@
+{
+  "name": "newman-reporter-junit5",
+  "version": "0.1.0",
+  "description": "Newman JUnit reporter with better JUnit 5 XML support",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm link && npm link newman-reporter-junit5",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necccc/newman-junit5-reporter.git"
+  },
+  "keywords": [],
+  "author": "nec@shell8.net",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/necccc/newman-junit5-reporter/issues"
+  },
+  "homepage": "https://github.com/necccc/newman-junit5-reporter#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "newman": "^5.3.2"
+  }
+}

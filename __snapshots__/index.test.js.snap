@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reporter generate xml 1`] = `
+"<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Collection" tests="3" time="0.248">
+  <testsuite name="Foo / Baz / baz request 1" id="91a0f33c-1c43-4815-b43c-586b4ce6328a" timestamp="2022-12-02T10:32:21.940Z" tests="3" failures="1" skipped="1" errors="0" time="0.179">
+    <testcase name="Status code is 201" time="0.179" classname="Foo / Baz / baz request 1">
+      <skipped/>
+    </testcase>
+    <testcase name="Status code is 404" time="0.179" classname="Foo / Baz / baz request 1">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 35740099-8212-4806-93a5-3c233073c943.]]>
+        <![CDATA[Collection name: Test Collection.]]>
+        <![CDATA[Request name: Foo / Baz / baz request 1.]]>
+        <![CDATA[Test description: Status code is 404.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 200
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.179" classname="Foo / Baz / baz request 1"/>
+  </testsuite>
+  <testsuite name="Foo / Baz / baz request 2" id="d9689c78-4997-4d7c-9d7c-3a07ad088733" timestamp="2022-12-02T10:32:21.940Z" tests="3" failures="1" skipped="1" errors="0" time="0.035">
+    <testcase name="Status code is 201" time="0.035" classname="Foo / Baz / baz request 2">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 405">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 35740099-8212-4806-93a5-3c233073c943.]]>
+        <![CDATA[Collection name: Test Collection.]]>
+        <![CDATA[Request name: Foo / Baz / baz request 2.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 405.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 405
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 405" time="0.035" classname="Foo / Baz / baz request 2"/>
+  </testsuite>
+  <testsuite name="Bar / bar request 1" id="26c1b22a-62d2-4b74-9152-988a4bed9a58" timestamp="2022-12-02T10:32:21.940Z" tests="3" failures="1" skipped="1" errors="0" time="0.034">
+    <testcase name="Status code is 201" time="0.034" classname="Bar / bar request 1">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 405">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 35740099-8212-4806-93a5-3c233073c943.]]>
+        <![CDATA[Collection name: Test Collection.]]>
+        <![CDATA[Request name: Bar / bar request 1.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 405.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 405
+   at Object.eval sandbox-script.js:3:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 405" time="0.034" classname="Bar / bar request 1"/>
+  </testsuite>
+</testsuites>"
+`;
