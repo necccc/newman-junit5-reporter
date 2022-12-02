@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/necccc/newman-junit5-reporter.git"
   },
-  "keywords": [],
+  "files": [
+    "index.js", "lib/reporter.js"
+  ],
+  "keywords": [ "newman", "reporter", "junit", "junit5", "skipped" ],
   "author": "nec@shell8.net",
   "license": "Apache 2.0",
   "bugs": {
